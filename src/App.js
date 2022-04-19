@@ -1,3 +1,11 @@
+var user = [{
+  fname: "sujit",
+  lname: "palo"
+},{
+  fname: "raj",
+  lname: "kumar"
+}]
+
 const App=()=>{
   let a=10
   let b=20
@@ -9,7 +17,16 @@ const App=()=>{
           </h1>
           <p>Building Crud App</p>
           <p1>some calculation:{a+b}</p1>
-      </div>
+          {
+           user.map((element) => {
+           return (
+               <div>
+                    <p>{element.fname}</p>
+                    <p>{element.lname}</p>
+               </div>)
+        })
+     
+       } </div>
   )
 }
 
