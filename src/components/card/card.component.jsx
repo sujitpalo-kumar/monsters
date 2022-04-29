@@ -1,4 +1,5 @@
 import './card.styles.css'
+
 const Card = ({name,email, id}) => {
     
     return (
@@ -13,4 +14,3 @@ const Card = ({name,email, id}) => {
 }
 
 export default Card
-

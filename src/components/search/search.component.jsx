@@ -1,4 +1,5 @@
-import './search.style.css'
+import './search.styles.css'
+
 const Search = ({changing}) => {
 
     return (
@@ -6,7 +7,7 @@ const Search = ({changing}) => {
             <input
                 className="search-box" 
                 type="text" 
-                placeholder="Search people"
+                placeholder="Search Monsters"
                 onChange={changing}
             />
         </>
